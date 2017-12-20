@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX4624/5
+D Low-Voltage SPDT Analog Switch
+K SWITCH
+F https://datasheets.maximintegrated.com/en/ds/MAX4624-MAX4625.pdf
+$ENDCMP
+#
+#End Doc Library
