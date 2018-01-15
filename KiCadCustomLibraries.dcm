@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Joystick
+D Rotary switch, 4-bit encoding
+K rotary hex
+$ENDCMP
+#
 $CMP MAX4624/5
 D Low-Voltage SPDT Analog Switch
 K SWITCH
