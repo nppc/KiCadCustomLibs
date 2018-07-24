@@ -1,5 +1,5 @@
-(module SS-12F23 (layer F.Cu) (tedit 5B57056E)
-  (fp_text reference SW2 (at 0.5 -2) (layer F.SilkS)
+(module SS-12F23 (layer F.Cu) (tedit 5B57058F)
+  (fp_text reference SW2 (at 0.5 -2) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value SW_SPDT (at 0 -4.25) (layer F.Fab)
@@ -18,4 +18,9 @@
   (pad "" thru_hole oval (at -6 0) (size 2 2.5) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -3 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  (model ../../../../../../src/Tennp/Git/KiCadCustomLibs/wrl/SS-12F23.wrl
+    (at (xyz 0 0.12 0))
+    (scale (xyz 0.395 0.395 0.395))
+    (rotate (xyz 0 0 180))
+  )
 )
