@@ -12,4 +12,9 @@
   (pad "" smd rect (at -2.3 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 2.3 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 0.85 0) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask))
+  (model ../../../../../../src/Tennp/Git/KiCadCustomLibs/wrl/TS-018.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.395 0.395 0.395))
+    (rotate (xyz 0 0 90))
+  )
 )
