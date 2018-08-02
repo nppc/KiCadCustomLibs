@@ -12,4 +12,9 @@
   (pad 1 thru_hole circle (at -8.89 0) (size 4 4) (drill 1.6) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 8.89 0) (size 4 4) (drill 1.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  (model ../../../../../../src/Tennp/Git/KiCadCustomLibs/wrl/PCV-2-473-10L.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.395 0.395 0.395))
+    (rotate (xyz 0 0 0))
+  )
 )
