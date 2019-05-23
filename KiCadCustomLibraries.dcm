@@ -10,7 +10,7 @@ D Rotary switch, 4-bit encoding
 K rotary hex
 $ENDCMP
 #
-$CMP MAX4624/5
+$CMP MAX4624_5
 D Low-Voltage SPDT Analog Switch
 K SWITCH
 F https://datasheets.maximintegrated.com/en/ds/MAX4624-MAX4625.pdf
