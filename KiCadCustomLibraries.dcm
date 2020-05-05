@@ -48,6 +48,11 @@ K nmos n-mos n-mosfet transistor
 F ~
 $ENDCMP
 #
+$CMP TP4056-SO8
+D USB Powered Li+ Charger, 4.1V/4.2V battery, 1A charging current
+K USB Battery Charger
+$ENDCMP
+#
 $CMP TPS562231
 D 2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT563
 K step-down dcdc voltage regulator
