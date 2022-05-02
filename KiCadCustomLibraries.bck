@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C8051F5x-QSOP20
+D 8051-compatible microcontroller, 25 MHz
+K 8051 microcontroller PWM UART SPI I2C ADC QSOP20
+F https://www.silabs.com/documents/public/data-sheets/C8051F52x-F53x.pdf
+$ENDCMP
+#
 $CMP DIO6970
 D 2A, 500KHz PWM Buck DC/DC Converter
 K 2A 500KHz PWM Buck DC/DC
@@ -79,12 +85,6 @@ $ENDCMP
 $CMP TP4056-SO8
 D USB Powered Li+ Charger, 4.1V/4.2V battery, 1A charging current
 K USB Battery Charger
-$ENDCMP
-#
-$CMP TPS5320x
-D Synchronous Buck Mono-Color or IR LED Driver
-K LED
-F https://www.ti.com/lit/ds/symlink/tps54201.pdf
 $ENDCMP
 #
 $CMP TPS5420x

@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C8051F5x-QSOP20
+D 8051-compatible microcontroller, 25 MHz
+K 8051 microcontroller PWM UART SPI I2C ADC QSOP20
+F https://www.silabs.com/documents/public/data-sheets/C8051F52x-F53x.pdf
+$ENDCMP
+#
 $CMP DIO6970
 D 2A, 500KHz PWM Buck DC/DC Converter
 K 2A 500KHz PWM Buck DC/DC
@@ -8,18 +14,6 @@ $ENDCMP
 $CMP D_Bridge_AA+-
 D Diode bridge (pins: 1=+, 2=-, 3=AC, 4=AC)
 K rectifier acdc
-$ENDCMP
-#
-$CMP EFM8BB10F8I-A-QSOP24
-D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C, QSOP24
-K 8051 microcontroller PWM UART SPI I2C ADC QSOP24
-F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
-$ENDCMP
-#
-$CMP EFM8SB1x-QSOP24
-D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +85 C, QSOP24
-K 8051 microcontroller PWM UART SPI I2C ADC QSOP24
-F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
 $ENDCMP
 #
 $CMP INA168
