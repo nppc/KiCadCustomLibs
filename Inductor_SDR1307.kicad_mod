@@ -11,7 +11,7 @@
   (pad 1 smd rect (at 0 -3.5) (size 14 2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd roundrect (at 0 4.875) (size 14 4.75) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd rect (at 0 3.5) (size 14 2) (layers F.Cu F.Paste F.Mask))
-  (model C:/src/Tennp/Git/KiCadCustomLibs/wrl/SDR1307.wrl
+  (model ${KICAD_USER_3DMODEL_DIR}/SDR1307.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.398 0.398 0.398))
     (rotate (xyz 0 0 0))
